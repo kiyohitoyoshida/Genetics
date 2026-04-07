@@ -1,0 +1,13 @@
+* org to md
+org-md-export-to-markdown
+* VSCode
+- https://code.visualstudio.com/download 
+* Emacs for Windows
+- https://www.gnu.org/software/emacs/download.html
+* Quarto
+- https://quarto.org/docs/get-started/
+* VSCodeのQuarto用プラグイン
+1. VSCodを開き、左側メニューの「Extension」をクリック
+2. Marketplaceで「Quarto」を検索し、インストール
+* ビデオの編集
+- [[https://www.shotcut.org/][Shotcut]]

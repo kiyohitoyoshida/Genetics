@@ -1,0 +1,35 @@
+
+
+*Drosophila melanogaster* is an outstanding experimental organism for classroom experiments. A general overview of its biology will help you to become more familiar with this organism.
+
+
+## The life cycle
+
+*Drosophila melanogaster* as a fly belongs to the holometabolic insects which undergo a complete metamorphosis. The sequence and the approximate duration of the different stages of the life cycle at its optimum growth temperature, 25 `&#8451;`{=html}, are:
+
+
+ | Stage                 | Duration    |
+ |:----------------------|:------------|
+ | Embryonic development | 1 day       |
+ | First larval instar   | 1 day       |
+ | Second larval instar  | 1 day       |
+ | Third larval instar   | 2 days      |
+ | Prepupa               | 4 hours     |
+ | Pupa                  | 4.5 days    |
+ | Adult                 | 40--50 days |
+
+Males become sexually mature and fertile shortly after emergence from the pupal case. Females mature less quickly: 6 to 12 hours depending on the strain. Once a female is sexually mature she will mate repeatedly with different males. Sperm is stored by the female in the ventral receptacle and used to fertilize eggs laid at later times. For this reason it is necessary to use virgin females in any cross in which the males to be used are different from the ones in the culture bottle from which the females are taken.
+
+Although the mean life span for adults at 25  ranges from 40 to 50 days and individuals may live as long as 80 days, young flies, not more than 10 days old, are normally used in crosses since fertility decreases with age.
+Under standard conditions the whole development from egg to adult takes about 10 days. At lower temperature, the life cycle is lengthened: 14 days at 23.5 \tccelsius; 21 days at 18 \tccelsius. Development can be speeded up by increasing temperature, but at around 29 - 30 `&#8451;`{=html} pupal lethality increases drastically, and in most strains, females become sterile at temperature above 30 `&#8451;`{=html}.
+
+
+## Number of progeny
+
+From a single pair of flies, kept for several days in a culture vial, a progeny of several hundred may be obtained. With Drosophila it is possible to obtain a large progeny from a few parental flies within approximately 2 weeks. This is a prerequisite for experiments which need statistical analyses.
+
+
+## Size
+
+Adult flies as well as all the developmental stages are fairly small. An adult fly is about 5 mm long and has a weight of approximately 1 milligram. Thus, large populations of hundreds of individuals can be grown in relatively small culture bottles. If cultures become overcrowded, the size of individual flies may be markedly reduced.
+

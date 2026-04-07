@@ -1,0 +1,46 @@
+
+Two genes which are located on the same chromosome are referred to as linked, because they are often transferred together to the progeny.
+
+
+## Materials
+
+-   Canton-S: wild type strain
+-   *cn bw*: double homozygous mutant strain; *cn* (cinnabar) mutation, which shows shiny light red eye color, and *bw* (brown) mutation, which shows brownish red eye color, both mutations are located on the second chromosome.
+
+
+## Experimental work
+
+1.  Parental cross
+    
+    `&#9792;`{=html} + + / + + (Canton-S) `&times;`{=html}  *cn bw* / *cn bw* `&#9794;`{=html}
+
+2.  F~1~ progeny are crossed with the mutant strain (back cross) in two ways.
+    1.  F~1~ females `&times;`{=html} *cn bw* / *cn bw*
+    
+    2.  *cn bw* / *cn bw*  `&times;`{=html} F~1~ males
+
+3.  F~2~ flies are classified according to phenotype and counted.
+
+     | Recombination | Genotype | Fly count |
+     |---------------|----------|-----------|
+     | No            |          |           |
+     | No            |          |           |
+     | Yes           |          |           |
+     | Yes           |          |           |
+
+     : (A) F~1~ `&times;`{=html} *cn bw* {tbl-colwidths="[20,40,40]"}
+
+
+	 | Recombination | Genotype | Fly count |
+	 |---------------|----------|-----------|
+	 | No            |          |           |
+	 | No            |          |           |
+	 | Yes           |          |           |
+	 | Yes           |          |           |
+
+	 : (B) *cn bw* `&times;`{=html} F~1~ {tbl-colwidths="[20,40,40]"}
+
+## Interpretation:
+
+-   What conclusions can be drawn about difference of the number of recombinants between the two crosses?
+

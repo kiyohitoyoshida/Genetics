@@ -1,0 +1,242 @@
+
+Inheritance is the transmission of genetic information from parents to offspring. Most of the genetic information is located on the chromosomes. The principles of chromosomal inheritance were first discovered experimentally by Gregor Mendel in 1865 and rediscovered by Correns, von Tschermark and de Vries in 1900. Mendel's laws describe the basic rules of simple inheritance:
+
+
+## Law of dominance
+
+When purebred (homozygous) strains differing in a particular trait and the corresponding allele pair are (a^+^a^+^ and aa, respectively) crossed, the F~1~ individuals (a^+^a) are uniform, regardless of the direction of the cross. The F~1~ from reciprocal crosses, either a^+^a^+^ females `&times;`{=html} aa males or aa females `&times;`{=html} a^+^a^+^ males, usually express only one of the two characteristics (that controlled by the dominant allele a^+^) to the exclusion of the other (the recessive one). This is the law of dominance also known as the principle of the uniformity of the F~1~.
+
+
+## Law of segregation
+
+Recessive characteristics, which are masked in the heterozygous (a^+^a) F~1~ arising from a cross between purebred strains, reappear in a specific proportion of the F~2~. That is, the numbers of an allele pair (a^+^a) separate from each other without influencing each other, when an individual forms haploid germ cells. This is the principle of segregation.
+
+
+## Law of independent assortment
+
+Members of different allele pairs (e.g. a^+^a and b^+^b) assort independently of each other when haploid germ cells are formed provided the genes in question are unlinked (located on different chromosomes). This is the principle of independent assortment.
+
+
+## Problem
+
+Test experimentally whether or not two characteristics result from two unlinked Mendelian genes. Do this by crossing flies of the two stocks to obtain an F~1~ progeny. Then intercross the F~1~ flies to obtain an F~2~ progeny. This will allow the detection of independent assortment if present.
+
+
+## Material
+
+-   *vg* (vestigial): vestigial wings
+-   *e* (ebony): black body color
+
+
+## Experimental work and interpretation of data
+
+Start work by filling in the available information in the spaces provided below. Remember that the haploid chromosome set of *Drosophila* is made up of 4 chromosomes. We assume that all genes other than those specifically mentioned are wild type. Chromosomes carrying no gene of particular interest within the context of the present experiment are also designated "+". As a symbol for the Y chromosome, which in normal individuals is present only in males, we use the symbol "Y". For the X chromosome we write "X". Now write down the genetic formulas of the parental flies (P = parental generation). Starting from these formulas, determine the types of gametes formed by the parents.
+
+
+ | Chromosome |  1   |          2           |         3          |   4   | Phenotype |
+ |------------|------|----------------------|--------------------|-------|-----------|
+ |`&#9792;`{=html} | X/X; |  *vg* / *vg*;   | *e^+^* / *e^+^*; | + / + | vestigial |
+ | `&#9794;`{=html} | X/Y; | *vg^+^* / *vg^+^*; | *e* / *e*;   | + / + | ebony     |
+
+
+The parental individuals (P) will produce the following kinds of gametes:
+
+| P                | gamete genotype |
+|------------------|-----------------|
+| `&#9792;`{=html} |                 |
+| `&#9794;`{=html} |                 |
+
+
+## Predict the genotypes of the F~1~ individuals
+
+This is usually done by means of genetic checkerboards (Punnett squares). This is a convenient way of working out all the possible combinations of different types of eggs from the female parent and sperm from the male parent. The steps followed are:
+
+1.  Work out the genotypes of the eggs produced by the female and write the genotype in one space vertically along the female column.
+2.  Work out the genotypes of the sperm produced by the male and write each different genotype in one space vertically along the male column.
+3.  Fill in each square with the genotype of the type of F~1~ zygote formed by the combination of the egg and the sperm. Note that by convention, in a heterozygote the dominant allele is written first (vg^+^/vg) no matter which parent donated which allele. Another thing to remember is that each different type of gamete is written only once. The genotype of an individual fly or type of fly is written as if it consisted of only one cell, the zygote (or fertilized egg) from which the individual developed.
+
+Determine the genotype in the different boxes of the checkerboard and give the phenotype and sex of the different classes of progeny. We expect the following F~1~ (first filial generation) progeny:
+
+```{=html}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax" colspan="2">Gamete Genotype</th>
+    <th class="tg-0lax" colspan="3">F<sub>1<sub></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">&#9792;</td>
+    <td class="tg-0lax">&#9794;</td>
+    <td class="tg-0lax">Genotype</td>
+    <td class="tg-0lax">Phenotype</td>
+    <td class="tg-0lax">Sex</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax">&nbsp;</td>
+  </tr>
+</tbody>
+</table>
+```
+
+By interbreeding the F~1~ (brother &times; sister cross) we obtain the F~2~ (second filial generation). In our future work we will concentrate on the genes which are of particular interest for a given cross. In the present case, these are the genes determining wing size and body color of the flies. The simplified notation of the genetic formulas for the cross leading to the F~2~ is:
+
+-------- &times; --------
+
+## Working out the different kinds of gametes each parent will form
+
+To predict the results of any genetic cross, the first step is to work out the genotypes of all the different kinds of gametes which each parent can form.  It is important to remember that each gamete must include one allele of each different gene.  Each different combination should be included only once, and all combinations must be present. The different kinds of gametes are entered into the next checkerboard, which is used to determine the expected genotypes of the F~2~ progeny.
+
+```{=html}
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:center;vertical-align:top}
+.tg .tg-1lax{width:100px}
+</style>
+<table class="tg">
+<caption>Genetic checkerboard</caption>
+<thead>
+  <tr>
+    <th class="tg-0lax" rowspan="2">Genotype of<br> sperms</th>
+    <th class="tg-0lax" colspan="4">Genotype of eggs</th>
+  </tr>
+  <tr>
+    <th class="tg-1lax">&nbsp;</th>
+    <th class="tg-1lax"></th>
+    <th class="tg-1lax"></th>
+    <th class="tg-1lax"></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</tbody>
+</table>
+```
+
+### Procedure
+
+-   Day 1: 3 or 4-day-old virgins of the *vg* stock are mated to *e* males. Prepare two vials with five pairs of flies in each one.
+-   Day4: The parental flies are removed from the vials.
+-   Day 12: Check the F~1~ progeny. Are all the flies phenotypically uniform? The flies do not have to be counted. For the next cross we select at random five pairs of flies and put them into a new vial.
+-   Questions:
+    1.  Why is it mandatory to remove the P flies from the vials on day 4 or at least before the F~1~ hatch?
+    2.  Is it appropriate to start an F~2~ cross with nonvirgin F~1~ females?
+-   Day 15: The parental individuals are removed from the vials.
+-   Day 23: The F~2~ progeny are classified according to phenotype and counted.
+-   Questions:
+    1.  How many different genotypes are expected?
+    2.  What ratio do you expect for the different phenotypes? Record your answers in the following table.
+
+
+| Phenotype       | Wild type | *vg* + | + *e* | *vg e* |
+|-----------------|-----------|--------|-------|--------|
+| Expected ratio  |           |        |       |        |
+| Total Fly Count |           |        |       |        |
+| Observed ratio  |           |        |       |        |
+
+: Result of the dihybrid cross with *vg* and *e* flies
+
+In the experimental work, the flies of the F~2~ generation are classified according to their phenotype and counted. For each fly the size of the wings and the body color are recorded. The sex of the flies is not registered. The numbers found are entered in the table.
+
+-   Questions:
+    1.  Do you find all the different F~2~ phenotypes which are theoretically expected?
+    2.  Does the observed ratio of phenotypes coincide with the theoretical expectation?
+        
+To answer the last question, we must analyze our data statistically. The agreement between the expected and the observed frequency of individuals in the different phenotypic classes can be measured by a $\chi^{2}$ test. The $\chi^{2}$ is defined as:
+
+\begin{equation}
+\chi^2 = \sum \frac{(o - e)^{2}}{e}
+\end{equation}
+
+The symbols denote:
+
+-   o: the observed number of individuals in a particular class,
+-   e: the expected number of individuals in this class. The expectation is based on the prediction found by applying Mendel's laws. The expected number is calculated by multiplying the expected fraction by the total number of flies counted.
+    
+In our case with four different classes the $\chi^{2}$ values for different probabilities, P, describing the agreement between experiment and expectation are given in the following probability table:
+
+
+|     P | $\chi^{2}$ |
+|-------|------------|
+|  0.99 |      0.115 |
+| 0.975 |      0.216 |
+|  0.90 |      0.584 |
+|  0.80 |      1.005 |
+|  0.70 |      1.424 |
+|   0.5 |      2.366 |
+|   0.3 |      3.665 |
+|   0.2 |      4.642 |
+|   0.1 |      6.251 |
+|  0.05 |      7.815 |
+|  0.01 |      11.34 |
+
+: Probabilities and $\chi^{2}$ values {tbl-colwidths="[50,50]"}
+
+To have large enough numbers for the statistical analysis the data from all students are pooled. Using the table shown below, we calculate the $\chi^{2}$ value. The $\chi^{2}$ value is located in the probability table above and the corresponding P value read.  The P value is the cumulative probability of a deviation from the expected as large or larger than that observed. Conventionally, in biology one assumes that P values below 0.05 (= 5%) indicate a significant deviation of the observation from the expectation. The difference is larger than what would be expected to occur in experimental work, simply by chance. In such a case one assumes that the observation is different from the expectation.
+
+| Operation             | Wild type | *vg* | *e* | *vg e* | Tatal     |
+|-----------------------|-----------|------|-----|--------|-----------|
+| Observed number (*o*) |           |      |     |        |           |
+| Expected number ($e$) |           |      |     |        |           |
+| $o-e$                 |           |      |     |        |           |
+| $(o-e)^2$             |           |      |     |        |           |
+| $(o-e)^2/e$           |           |      |     |        | $\chi^2=$ |
+
+: $\chi^{2}$ test {tbl-colwidths="[25,15,15,15,15,15]"}
+
+
+Interpret the observed $\chi^{2}$. In case the observation deviates significantly from the expectation, try to find reasons for the deviation.
+
+### $\chi^{2}$ test on R
+
+You can execute $\chi^{2}$ test with R, statistical software package.
+
+[Getting Started With R](GettingStartedWithR.html)

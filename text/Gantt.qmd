@@ -1,0 +1,56 @@
+---
+title: Schedule of experiments
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{mermaid}
+gantt
+    title Fly pushing
+    dateFormat YYYY-MM-DD
+    section Selection
+        vg virgin check :a1, 2025-05-28, 3d
+		CS males :2025-05-28, 3d
+        vg x CS mating and oviposition  :3d
+		F1 growing :11d
+		F1 x F1 mating and oviposition  :3d
+		F2 growing :11d
+		F2 collecting  :3d
+		F2 x F2 oviposition :1d 
+		F3 growing :11d
+		F3 count :3d
+    section vge
+        e virgin check :2025-06-04, 3d
+        vg males    :2025-06-04, 3d
+		e x vg mating and oviposition :3d
+		F1 growing :11d
+		F1 x F1 mating and oviposition  :3d
+		F2 growing :11d
+		F2 count  :3d
+	section Mating
+		vg oviposition :2025-06-04, 3d
+		vg growing :11d
+		vg collecting virgins nad males :7d
+		CS oviposition :2025-06-04, 3d
+		CS growing :11d
+		CS collecting virgins and males :7d
+		Mating Preferences :3d
+	section cnbw
+		CS oviposition :cs1, 2025-06-04, 3d
+		CS growing :11d
+		CS collecting virgins :3d
+		cnbw oviposition :cnbw1, 2025-06-04, 3d
+		cnbw growing :cnbw2, after cnbw1, 11d
+		cnbw females and males :cnbw3, after cnbw2, 3d
+		CS x cnbw mating and oviposition :3d
+		F1 growing :11d
+		F1 virgins and males :3d
+		cnbw mating and oviposition :after cnbw3, 3d
+		cnbw growing :11d
+		cnbw virgins and males :3d
+		F1 x cnbw, cnbw x F1 mating and oviposition :3d
+		F2 growing :11d
+		F2 count :3d
+```

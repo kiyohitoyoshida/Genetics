@@ -1,0 +1,32 @@
+
+According to the Hardy-Weinberg law, gene frequencies do not change from generation to generation. However, in practice, gene frequencies change due to various factors. In this experiment, a recessive mutant line is crossed with a wild-type line to observe changes in the frequency of the recessive mutant gene.
+
+
+## Material
+
+-   Canton-S: A wild type strain. It has no visible mutant phenotype.
+-   *vg* (vestigial): vestigial wings.
+
+
+## Procedure
+
+1.  Parental cross:
+
+`&#9792;`{=html} vg / vg `&times;`{=html}  + / + `&#9794;`{=html}
+
+2.  The F~1~ flies are intercrossed. Approximately 5 females and 5 males are put into a midle vial. After 3 days remove flies.
+3.  Collect F~2~ flies in a milk bottle for 3 days. Transfer flies into a new milk bottle. Discard the old bottle.  After 1 day count the numbers of normal and mutant individuals.
+4.  Count the number of F~3~ normal and mutant individuals.
+
+
+## Results
+
+| Generation | Normal flies | *v* flies | Total flies | Frequency of *vg* / *vg* |
+|------------|--------------|-----------|-------------|--------------------------|
+| F~2~       |              |           |             |                          |
+| F~3~       |              |           |             |                          |
+
+## Questions
+
+-   Calculate the selection coefficient (s).
+

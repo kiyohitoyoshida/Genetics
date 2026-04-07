@@ -1,0 +1,19 @@
+
+## Experiments
+
+1.  Variation in Population with Natural Selection (Selection)
+    -   Canton-S x *vg*
+
+2.  Dihybrid Cross with Independent Assortment (vge)
+    -   *vg* x *e*
+
+3.  Recombination (cnbw)
+    -   Canton-S x *cn bw*
+
+4.  Mating Preferences (mating)
+    -   Canton-S vs *vg*
+
+5.  P-M Hybrid Dysgenesis (HD)
+    -   Harwich and Canton-S
+
+[Schedule of experiments](Gantt.html)

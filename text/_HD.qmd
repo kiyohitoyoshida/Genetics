@@ -1,0 +1,44 @@
+
+In Drosophila, mating combinations between some specific strains result in offspring with various aberrations. This phenomenon is called hybrid dysgenesis. The most familiar example is the P-M hybrid dysgenesis. When crossing females of laboratory strains maintained for many years and males of newly established strains from the natural population, their offspring show sterility, increasing mutation rate, recombination in males, and chromosome rearrangements. In this hybrid dysgenesis the strains of male parents are called the P strains (paternal) and the strains of female parents the M strains (maternal). No abnormality takes place in the reverse crossings or the internal crossings. The symptoms of the P-M hybrid dysgenesis get worse at higher temperature of rearing.
+
+
+## Strains
+
+-   Canton-S
+-   Harwich
+
+## Procedure
+
+-   Make the four crosses listed below.
+
+| Cross | Female   | Male     | Culture Temp.       |
+|-------|----------|----------|---------------------|
+| A     | Harwich  | Canton-S | 20 `&#8451;`{=html} |
+| B     | Harwich  | Canton-S | 25 `&#8451;`{=html} |
+| C     | Canton-S | Harwich  | 20 `&#8451;`{=html} |
+| D     | Canton-S | Harwich  | 25 `&#8451;`{=html} |
+
+
+- Transfer the F~1~ flies into new vials.
+- Incubate them at 23 `&#8451;`{=html} for about 5 days.
+- Anesthetize the F~1~ females.
+- Dissect the abdomens of 20 females from each cross. Place each female for dissection in a drop of 70% EtOH in a small dish over a dark background. Tear open the abdominal wall with a forceps.
+-   Examine the ovaries. Fertile females will have ovaries packed full of developing eggs while those having dysgenic ovaries will have one or both ovaries which are empty of eggs.
+- See movies of dissection.
+  - [A female having normal overies]()
+  - [A female having dysgenic overies]()
+-   Record your results for each cross in the following table.
+
+| Cross | Both ovaries normal | One ovary normal | No normal ovaries | Dysgenic ovaries(%) |
+|-------|---------------------|------------------|-------------------|---------------------|
+| A     |                     |                  |                   |                     |
+| B     |                     |                  |                   |                     |
+| C     |                     |                  |                   |                     |
+| D     |                     |                  |                   |                     |
+
+: Dysgenic ovaries {tbl-colwidths="[12,22,22,22,22]"}
+
+
+-   In which cross do you observe dysgenic ovaries?
+-   What is the causes of the P-M hybrid dysgenesis?
+

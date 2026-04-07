@@ -1,0 +1,56 @@
+
+The successful mating of flies, which is presupposed in all our crosses, actually requires a complicated, genetically determined courtship ritual. We shall observe the normal mating behavior of flies before analyzing changes in this behavior.
+
+
+## Problem
+
+To determine the sequence and the individual elements of the different activities in the mating behavior.
+
+
+## Procedure
+
+Put one pair of virgin wild type flies into a cell culture vessel. Do not anesthetize flies. Observe the behavior of the female and the male under a stereomicroscope at low magnification. Record the observations and the time when the behavior is happen
+
+
+# Mating Preferences
+
+The Hardy-Weinberg law is only applicable under the assumption of panmixia in a population. However, it can be shown that for specific alleles in a population the frequency of the carriers of this allele is different from the expectation based on the frequency of the allele in the population. In other words, mating preferences exist within a population. This phenomenon can be demonstrated with the help of two different monohybrid crosses.
+
+
+## Problem
+
+Is there a difference between the mating success of wild type males and of *vg* males?
+
+
+## Material
+
+virgin 4-day-old females and males of wild type Canton-S strain as well as of the *vg* strain.
+
+
+## Procedure
+
+-   Put 10 females and 10 males of each strain into a cell culture vessel.
+-   Record successful mating until 10 pairs of copulation.
+-   Try this mating experiment ten times.
+
+| Trial | CS x CS | CS x *vg* | *vg* x CS | *vg* x *vg* | Total |
+|-------|---------|-----------|-----------|-------------|-------|
+|     1 |         |           |           |             |    10 |
+|     2 |         |           |           |             |    10 |
+|     3 |         |           |           |             |    10 |
+|     4 |         |           |           |             |    10 |
+|     5 |         |           |           |             |    10 |
+|     6 |         |           |           |             |    10 |
+|     7 |         |           |           |             |    10 |
+|     8 |         |           |           |             |    10 |
+|     9 |         |           |           |             |    10 |
+|    10 |         |           |           |             |    10 |
+| Total |         |           |           |             |   100 |
+
+: Mating Preferences {tbl-colwidths="[10,20,20,20,20,10]"}
+
+## Conclusions
+
+-   What can you conclude from your results about the effectiveness of mating of the two types of strains?
+-   List as many hypotheses as you can think of to explain your results.
+

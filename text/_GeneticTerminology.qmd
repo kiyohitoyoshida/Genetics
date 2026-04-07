@@ -1,0 +1,90 @@
+Allele
+: One of a series of possible alternative forms of a given gene unique in DNA sequence and affecting the functioning of a single product. If more than two mutant alleles have been identified in a species, the locus is said to show "multiple allelism".
+
+
+Autosome
+
+: A chromosome other than a sex chromosome.
+
+
+Chromosome mutation (chromosomal aberration)
+
+: A change affecting more than one gene such as the loss, duplication, or rearrangement of chromosome material containing genetic information.
+
+
+Diploid condition
+
+: The chromosome state, in which each type of chromosome (except the sex chromosomes) is represented twice in somatic cells (2N).
+
+
+Dominant/recessive
+
+: In diploid organisms an allele which is phenotypically expressed in either the homozygous or heterozygous state is said to be dominant. An allele which is expressed only when homozygous is said to be recessive.
+
+
+F~1~
+
+: First filial generation; the offspring from an experimental crossing. The parents of the F~1~ are referred to as P.
+
+
+Gene
+
+: A gene is an hereditary unit, in the classical sense, and usually occupies a specific position (locus) on a specific chromosome within the genome; operationally it is a unit that has one or more specific effects on the phenotype of the organism; a gene can mutate to various allelic forms and recombines with other such units; at the molecular level a specific sequence of nucleotides in a DNA molecule.
+
+
+Genotype
+
+: The genetic constitution of a cell or of an organism, as distinguished from its physical appearance (phenotype).
+
+
+Hemizygous
+
+: Having a gene present in a single dose. May refer to a gene in a haploid organism, or to a sex-linked gene in the heterogametic sex, or to a gene in the appropriate chromosomal segment of a deficiency heterozygote.
+
+
+Heterozygous
+
+: Having different alleles at the corresponding loci of homologous chromosomes.
+
+
+Homozygous
+
+: Having identical rather than different alleles at the corresponding loci of homologous chromosomes and, therefore, breeding true.
+
+
+Lethal mutation
+
+: A mutation which results in the premature death of the cell or organism carrying it. Dominant lethals kill heterozygotes, whereas recessive lethals kill only homozygotes.
+
+
+Locus
+
+: The position that a gene occupies on a chromosome.
+
+
+Mutation
+
+: 1. The process by which a gene undergoes a chemical or structural change; 2. a modified gene resulting from mutation; 3. by extension, an individual manifesting the mutation.
+
+
+Phenotype
+
+: The observable properties of an organism, produced by the genotype in conjunction with the environment.
+
+
+Sex chromosomes
+
+: The chromosomes that are dissimilar in the heterogametic sex. In *Drosophila* called X and Y.
+
+
+## The use of symbols for genes and alleles
+
+With the methods of classical genetics, the genetic determination of a trait can only be proven after a mutation in the gene controlling this characteristic has been found. The mutant allele is identified based on its expression as a different or "mutant" phenotype. Dominant alleles are immediately detectable, recessive ones only after they have become homozygous.
+
+Since the early days of Mendelian genetics it has been the custom to name the gene after the phenotypic change observed in the mutant. For example in *Drosophila*, a fly was found with wings of reduced size. This phenotype was called "vestigial", and *vg* is used as the symbol. Symbols with the first letter in upper case denote a dominant mutation, those with a lower case first letter a recessive mutation. The original allele present before the mutation occurred is said to be "normal" or "wild type". The wild type allele is the most common allele found in natural populations. For practical reasons the name used for the mutant phenotype is also used to designate the mutant allele and the gene as such. The wild type allele is the same symbol with a plus superscript (*vg*^+^) often abbreviated simply +. The name, in this case "vestigial", is also used for the gene of which we now have two alleles *vg*^+^ and vg. The "vestigial" gene controls the size of the wings. Note that the symbolism system used in *Drosophila* is different from that used for many other organisms in that the upper and lower case of the same letter, e.g. *B* and *b* indicate different genes and not alleles. *B* is a dominant mutation (Bar eye) and its wild type allele is *B*^+^, while *b* is a recessive mutation (black body color) with normal body color *b*^+^. 
+
+To perform an experimental cross with *Drosophila*, female and male flies are placed together in a vial or bottle. Gene symbols are used to label bottles with the crosses made. As a rule the genotype of the female parent is written first, followed by an x and then the genotype of the male. In cases where we are interested in several genes on a chromosome, the symbols of the genes on one homolog are written together and separated from those on the other homolog by two horizontal lines, e.g.:
+$\frac{vg^{+}\ bw^{ +}}{vg \ \ bw}$
+
+A general rule that is used in genetics is that only the alleles of interest are written although every fly is of course carrying two alleles of each of thousands of genes. Any gene not written is assumed to be homozygous for the wild type allele.
+

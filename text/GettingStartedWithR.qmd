@@ -1,0 +1,345 @@
+---
+title: "Getting Started with R"
+format: 
+  html: 
+    code-link: true
+editor: visual
+toc: true
+execute:
+  echo: true
+number-sections: true
+---
+
+# Getting Acquainted with R
+
+## What is 'R'
+
+-   R is a free software environment for statistical computing and graphics.
+    -   <http://www.r-project.org/index.html>
+-   Guide book
+    -   [Getting Started with R](https://www.amazon.co.jp/Getting-Started-R-Introduction-Biologists/dp/0198787847/ref=sr_1_1?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dchild=1&keywords=getting+started+with+r&qid=1633907922&sr=8-1)
+
+## There are two methods to use R ##
+  1. Using Google Colaboratory on cloud
+  2. Using the applications on your PC
+
+## Using Google Colaboratory ##
+  1. Access Google.
+  2. Login with your ELMS account.
+  3. Go to Google Drive.
+      * You can visit Google Drive through the ELMS menu.
+  4. Make a new folder and open it.
+  5. Make a new file of Google Colaboratory.
+  6. Change the runtime type into 'R'.
+
+## Using R on a PC ##
+-   For installation
+    -   <https://cran.ism.ac.jp/>
+
+## Getting RStudio
+
+-   RStudio is an Integrated Developmental Environment (IDE), an application that makes interacting with R easier and more pleasurable.
+-   For installation
+    -   <https://www.rstudio.com>
+
+## Cheatsheets
+
+1.  **Help** \> **Cheatsheets** \> **RStudio IDE Cheat Sheets**
+2.  [rstudio-ide.pdf](rstudio-ide.pdf)
+
+# Data management
+
+## Install tidyverse package
+
+1.  Start RStudio
+
+```{r}
+#| eval: false
+
+install.packages("tidyverse")
+```
+
+2.  tidyverse package includes these sub packages
+
+-   ggplot2
+-   dplyr
+-   tidyr
+-   readr
+
+## Tidy data
+
+-   R for Data Science
+    -   <https://r4ds.hadley.nz/>
+    -   <https://r4ds.hadley.nz/data-tidy>
+-   3 rules
+    -   Each variable must have its own column
+    -   Each observation must have its own row
+    -   Each value must have its own cell
+
+### Not Tidy Data
+
+| country    | year | type       | count     |
+|------------|------|------------|-----------|
+| Afghnistan | 1999 | cases      | 745       |
+| Afghnistan | 1999 | population | 19987071  |
+| Afghnistan | 2000 | cases      | 2666      |
+| Afghnistan | 2000 | population | 20595360  |
+| Brazil     | 1999 | cases      | 37737     |
+| Brazil     | 1999 | population | 172006362 |
+
+### Tidy Data
+
+| country    | year | cases | population |
+|------------|------|-------|------------|
+| Afghnistan | 1999 | 745   | 19987071   |
+| Afghnistan | 2000 | 2666  | 20595360   |
+| Brazil     | 1999 | 37737 | 172006362  |
+| Brazil     | 2000 | 80488 | 174504898  |
+
+## Install sample data package
+
+```{r}
+#| eval: false
+
+install.packages("nycflights13")
+```
+
+## New Project
+
+1.  **File** \> **New Project**
+2.  **New Directory**
+3.  **New Project**
+4.  Directory name: MyProject
+5.  Create project as subdirectory of: "\~/Documents"
+
+```{r}
+#| eval: false
+
+library(nycflights13)
+library(tidyverse)
+View(flights)
+?flights
+```
+
+## filter()
+
+-   **filter()** allows you to subset observations based on their values.
+-   For example, we can select all flights on January 1st with:
+
+```{r}
+#| eval: false
+
+filter(flights, month == 1 & day == 1)			  
+jan1 <- filter(flights, month == 1 & day == 1)	  
+janfeb <- filter(flights, month == 1 | month == 2)    
+```
+
+## select()
+
+-   **select()** allows you to rapidly zoom in on a subset by specifying the names of the variables.
+
+```{r}
+#| eval: false
+
+select(flights, year, month, day)
+```
+
+## mutate()
+
+-   **mutate()** adds new columns that are functions of existing columns.
+
+```{r}
+#| eval: false
+
+flights_sml <- select(flights, year:day, ends_with("delay"), distance, air_time)
+mutate(flights_sml, gain = arr_delay - dep_delay, speed = distance / air_time * 60)
+```
+
+## group_by() and summarize() ##
+
+-   **group_by()** categorizes data into groups by some variables.
+-   **summarize()** applies some calculation to each of the groups.
+-   For example, if we want the average delay per date:
+
+```{r}
+#| eval: false
+
+by_day <- group_by(flights, year, month, day)
+summarize(by_day, delay = mean(dep_delay, na.rm = TRUE))
+```
+
+-   If there is any missing value in the input, the output will be a missing value.
+-   We need to remove the missing values prior to computation by assigning the "TRUE" value to the na.rm argument.
+
+## Pipe ##
+
+-   If we want to explore the relationship between the distance and average delay for each location,
+-   we might write code like this:
+
+```{r}
+#| eval: false
+
+by_dest <- group_by(flights, dest)
+delay <- summarize(by_dest,
+                   count = n(),
+                   dist = mean(distance, na.rm = TRUE),
+                   delay = mean(arr_delay, na.rm = TRUE)
+                   )
+delays <- filter(delay, count > 20, dest != "HNL")
+```
+
+-   In this code we have to give each intermediate data frame a name (by_dest and delay)
+-   You can omit these intermediates by using the pipe, "%\>%":
+
+```{r}
+#| eval: false
+
+delays <- flights %>%
+    group_by(dest) %>%
+    summarize(
+        count = n(),
+        dist = mean(distance, na.rm = TRUE),
+        delay = mean(arr_delay, na.rm = TRUE)
+    ) %>%
+    filter(count > 20, dest != "HNL")
+```
+
+### Scripts ###
+
+-   You can store sequences of commands as a script file.
+-   **File** \> **New File** \> **R Script**
+-   You can edit your script on the script editor.
+-   You can copy commands you executed from the History panel.
+-   The short cut key, Cmd/Ctrl + Enter, executes the current R expression in the console.
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+# Visualizing data
+
+-   You want to get some meaning or relationship from your data.
+-   Before statistical analysis you should plot your data and see its patterns.
+-   If you do this, you can image and get information about the way of analysis.
+-   The ggplot2 package provides the means to visualize data effectively.
+
+## ggplot2
+
+-   <https://ggplot2.tidyverse.org/>
+-   <https://www.amazon.com/dp/1491978600/>
+
+```{r }
+library(tidyverse)
+```
+
+## Scatter plot
+
+```{r }
+View(mpg)
+ggplot(mpg) +
+    geom_point(aes(x = displ, y = hwy))
+```
+
+-   **ggplot(data):** creates a coordinate system for a data frame to be plotted
+-   **geom_point():** adds a layer of points to your plot.
+-   **aes():** arguments specify which variables to map to the x and y axes.
+
+### Aesthetic mappings
+
+-   you can map the colors of your points by according to the class variable.
+-   ggplot2 will add a legend for colors.
+
+```{r }
+ggplot(mpg) +
+    geom_point(aes(x = displ, y = hwy, color = class))
+```
+	
+### Fitting a regression model into data
+
+-   **lm()** method calculates a regression line.
+-   If you omit the method argument, ggplot2 calculates a fitting curve by the local polynomial regression fitting (loess) method.
+-   If you specify se = FALSE, a confidential region isn't displayed.
+
+```{r }
+ggplot(mpg) +
+    geom_point(aes(x = displ, y = hwy, color = class)) +
+    geom_smooth(aes(x = displ, y = hwy), method = lm, se = FALSE)
+```
+
+## Line plot
+
+```{r }
+View(pressure)
+ggplot(pressure) +
+    geom_line(aes(x = temperature, y = pressure)) 
+```
+
+## Bar graph
+
+-   **geom_bar()** plots bar charts that show counts
+
+```{r }
+ggplot(mpg) + geom_bar(aes(class))
+```
+
+-   If a column has count data, set "identity" to the stat parameter.
+
+```{r }
+View(BOD)
+ggplot(BOD) +
+    geom_bar(aes(x = Time, y = demand), stat = "identity")
+```
+
+## Histogram
+
+```{r }
+View(mtcars)
+ggplot(mtcars) +
+    geom_histogram(aes(x = mpg), binwidth = 4)
+```
+
+## Box plot
+
+-   **geom_boxplot()** displays five summary statistics (minimum, maximum, median, first quartile, and third quartile), and all "outlying" points individually.
+
+```{r }
+View(PlantGrowth)
+ggplot(PlantGrowth) +
+    geom_boxplot(aes(x = group, y = weight))
+```
+
+# Introducing Statistics in R
+
+## $\chi^{2}$ contingency table analysis ##
+
+```{r lady}
+lady <- read_csv("datasets-master/ladybirds_morph_colour.csv")
+View(lady)
+```
+
+### Ladybirds ###
+
+```{r }
+#| dependson: "lady"
+totals <- lady %>% group_by(Habitat, morph_colour) %>% 
+    summarise(total.number = sum(number))
+      
+ggplot(totals, aes(x = Habitat, y = total.number, fill = morph_colour)) +
+    geom_bar(stat = 'identity', position = 'dodge')
+```
+```{r }
+totals <- lady %>% group_by(Habitat, morph_colour) %>% 
+    summarise(total.number = sum(number))
+  
+ggplot(totals, aes(x = Habitat, y = total.number, fill = morph_colour)) +
+    geom_bar(stat = 'identity', position = 'dodge') +
+    scale_fill_manual(values = c(black="black", red="red"))
+```
+### Contingency table ###
+
+```{r }
+#| dependson: "lady"
+lady.mat <- xtabs(number ~ Habitat + morph_colour, data = lady)
+chisq.test(lady.mat)
+```
+
+## Further Study ##
+  * [Statistics: An Introduction Using R, 2nd Edition](https://www.wiley.com/en-us/Statistics%3A+An+Introduction+Using+R%2C+2nd+Edition-p-9781118941096)

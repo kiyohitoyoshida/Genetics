@@ -1,0 +1,6 @@
+
+Fruit fly *Drosophila melanogaster* is ideally suited to the practical demonstration of the basic phenomena of genetics. A large number of easily recognizable genetic markers, a generation time of only 10 days and simple culture methods make the fruit fly the eukaryote of choice for many geneticists. In this course we will have several experiments which illustrate various fields of genetics, ranging from simple Mendelian crosses to the induction of mutations. 
+
+You can learn the concept of genetic inheritance underpinning living things by observing Mendelian inheritance, mutations and natural selection using *Drosophila* as an experimental material.
+
+You have to analyze data statistically. To do this, you have to obtain a lot of offspring from mating between mutant strains of *Drosophila*. Therefore, you have to keep flies in healthy condition and to make mating plans according to fly's growth states.

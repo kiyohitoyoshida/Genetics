@@ -1,0 +1,50 @@
+---
+title: Laboratory Course in Drosophila Genetics
+format:
+  html:
+    toc: true
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+number-sections: true
+---
+
+# Introduction
+
+{{< include _Introduction.qmd >}}
+
+# Genetic Terminology
+
+{{< include _GeneticTerminology.qmd >}}
+
+# The Biology of *Drosophila melanogaster*
+
+{{< include _BiologyDrosophila.qmd >}}
+
+# Fly Culture
+
+{{< include _FlyCulture.qmd >}}
+
+# Overview of the experiments
+
+{{< include _Experiments.qmd >}}
+
+# Variation in Population with Natural Selection
+
+{{< include _Selection.qmd >}}
+
+# Dihybrid Cross with Independent Assortment
+
+{{< include _DihybridCross.qmd >}}
+
+# Recombination
+
+{{< include _Recombination.qmd >}}
+
+# Mating Behavior
+
+{{< include _Mating.qmd >}}
+
+# P-M Hybrid Dysgenesis
+
+{{< include _HD.qmd >}}
