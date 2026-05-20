@@ -20,5 +20,7 @@ format: html
 9. "Create Project"
 10. Open "Drosophila.qmd" file.
 11. Click the "Render" menu.
-12. You can see the text in the "Viewer" window or open "Drosophila.html" with your browser.
-13. Close the project and quit RStudio.
+12. You can see the text in your browser or open "Drosophila.html" file.
+13. Open "Gantt.qmd" file and "Render".
+14. You can modify the schedule by editing the Gantt.qmd file.
+15. Close the project and quit RStudio.
