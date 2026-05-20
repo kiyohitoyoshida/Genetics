@@ -11,37 +11,37 @@ gantt
     title Fly pushing
     dateFormat YYYY-MM-DD
     section Selection
-        vg virgin check :a1, 2025-05-28, 3d
-		CS males :2025-05-28, 3d
+        vg virgin check :a1, 2026-06-03, 3d
+		CS males :2026-06-03, 3d
         vg x CS mating and oviposition  :3d
 		F1 growing :11d
-		F1 x F1 mating and oviposition  :3d
+		F1 x F1 mating and oviposition  :2d
 		F2 growing :11d
-		F2 collecting  :3d
+		F2 collecting  :4d
 		F2 x F2 oviposition :1d 
 		F3 growing :11d
 		F3 count :3d
     section vge
-        e virgin check :2025-06-04, 3d
-        vg males    :2025-06-04, 3d
+        e virgin check :2026-06-03, 3d
+        vg males    :2026-06-03, 3d
 		e x vg mating and oviposition :3d
 		F1 growing :11d
 		F1 x F1 mating and oviposition  :3d
 		F2 growing :11d
 		F2 count  :3d
 	section Mating
-		vg oviposition :2025-06-04, 3d
+		vg oviposition :2026-06-03, 3d
 		vg growing :11d
 		vg collecting virgins nad males :7d
-		CS oviposition :2025-06-04, 3d
+		CS oviposition :2026-06-03, 3d
 		CS growing :11d
 		CS collecting virgins and males :7d
 		Mating Preferences :3d
 	section cnbw
-		CS oviposition :cs1, 2025-06-04, 3d
+		CS oviposition :cs1, 2026-06-03, 3d
 		CS growing :11d
 		CS collecting virgins :3d
-		cnbw oviposition :cnbw1, 2025-06-04, 3d
+		cnbw oviposition :cnbw1, 2026-06-03, 3d
 		cnbw growing :cnbw2, after cnbw1, 11d
 		cnbw females and males :cnbw3, after cnbw2, 3d
 		CS x cnbw mating and oviposition :3d
@@ -53,4 +53,16 @@ gantt
 		F1 x cnbw, cnbw x F1 mating and oviposition :3d
 		F2 growing :11d
 		F2 count :3d
+	section HD
+		CS oviposition :2026-06-03, 3d
+		CS growing : 11d
+		CS collecting virgins and males :7d
+		Hw oviposition :hw1, 2026-06-03, 3d
+		Hw growing :hw2, after hw1, 11d
+		Hw collecting virgins and males :hw3, after hw2, 7d
+		CS x Hw mating and oviposition :cshw, after hw3, 3d
+		Cross A and C growing:cshwac, after cshw, 20d
+		F1 dissection :after cshwac, 3d
+		Cross B and D growing:cshwbd, after cshw, 10d
+		F1 dissection :after cshwbd, 3d
 ```
