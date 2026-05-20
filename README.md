@@ -1,6 +1,8 @@
 ---
 title: Obtaining the Text 
-format: html
+format:
+  html:
+    embed-resouces:true
 ---
 1. Install R and RStudio according to [Getting Started With R](https://noah.ees.hokudai.ac.jp/yoshida/html/Genetics/2026/GettingStartedWithR.html)
 
