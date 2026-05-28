@@ -34,7 +34,7 @@ number-sections: true
 
 ## Using R on a PC ##
 -   For installation
-    -   <https://cran.ism.ac.jp/>
+    -   <https://cran.rstudio.com/>
 
 ## Getting RStudio
 

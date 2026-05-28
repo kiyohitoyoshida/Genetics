@@ -24,9 +24,15 @@ In Drosophila, mating combinations between some specific strains result in offsp
 - Anesthetize the F~1~ females.
 - Dissect the abdomens of 20 females from each cross. Place each female for dissection in a drop of 70% EtOH in a small dish over a dark background. Tear open the abdominal wall with a forceps.
 -   Examine the ovaries. Fertile females will have ovaries packed full of developing eggs while those having dysgenic ovaries will have one or both ovaries which are empty of eggs.
-- See movies of dissection.
-  - [A female having normal overies]()
-  - [A female having dysgenic overies]()
+- See movies for dissection.
+  - A female having normal overies
+  
+  {{< video img/normal-ovaries.mp4 >}}
+
+  - A female having dysgenic overies
+  
+  {{< video img/abnormal-ovaries.mp4 >}}
+  
 -   Record your results for each cross in the following table.
 
 | Cross | Both ovaries normal | One ovary normal | No normal ovaries | Dysgenic ovaries(%) |

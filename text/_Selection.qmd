@@ -14,8 +14,8 @@ According to the Hardy-Weinberg law, gene frequencies do not change from generat
 
 `&#9792;`{=html} vg / vg `&times;`{=html}  + / + `&#9794;`{=html}
 
-2.  The F~1~ flies are intercrossed. Approximately 5 females and 5 males are put into a midle vial. After 3 days remove flies.
-3.  Collect F~2~ flies in a milk bottle for 3 days. Transfer flies into a new milk bottle. Discard the old bottle.  After 1 day count the numbers of normal and mutant individuals.
+2.  The F~1~ flies are intercrossed. Approximately 5 females and 5 males are put into a midle vial. After 2 days remove flies.
+3.  Collect F~2~ flies in a milk bottle for 4 days. Transfer flies into a new milk bottle. Discard the old bottle.  After 1 day count the numbers of normal and mutant individuals.
 4.  Count the number of F~3~ normal and mutant individuals.
 
 
