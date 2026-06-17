@@ -1,6 +1,7 @@
 
 The successful mating of flies, which is presupposed in all our crosses, actually requires a complicated, genetically determined courtship ritual. We shall observe the normal mating behavior of flies before analyzing changes in this behavior.
 
+{{< video img/mating_behavior.mp4 >}}
 
 ## Problem
 

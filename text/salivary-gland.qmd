@@ -1,0 +1,55 @@
+---
+title: Salivary Gland Chromosomes
+format:
+  html:
+    toc: true
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+number-sections: true
+---
+
+# Squashing Salivary Gland Chromosomes
+
+In the nuclei of cells in the larval salivary glands of *Drosophila*, there are giant chromosomes, called polytene chromosomes, that contain about 1000 DNA molecules laterally aligned and have distinctive pattern of transverse banding. The polytene structures are formed by repeated replication of the DNA in a closely synapsed pair of homologous chromosomes without separation of the replicated chromatin strands. The polytene chromosomes have been especially valuable in the genetics of *Drosophila* and are ideal for the study of chromosome rearrangements.
+
+
+## Reagents
+
+* Saline
+* Aceto-lactate orcein: Dissolve 0.3 g of orcein in 15 ml of a mixture of equal volume of 85% lactic acid, glacial acetic acid, and DW. Heat and filter while hot.
+* 45% acetic acid
+* Microscope slides
+* Coverslips (18 x 18 mm)
+* Filter paper
+* Dissecting needle
+* Pencil with eraser
+* Clear nail polish
+* Plastic dish
+
+
+## Procedure
+
+{{< video img/salivary.mp4 >}}
+
+1.  Transfer flies (about 10&#x2013;20) to a new bottle.  After a couple of days, take out the flies.
+2.  Select large third instar larvae for dissection.  Do not choose larvae that have everted their spiracles.
+3.  Raise larvae at 23 \si{\celsius} until they start climbing on the bottle wall.
+4.  Wash a larva in tap water.
+5.  Transfer the larva into 45% acetic acid in a plastic dish.
+6.  Grasp the mouth hooks firmly with one pair of forceps. Then grasp the body of the larva with the other pair of forceps. Slowly pull the two pairs of forceps apart. The mouth hooks should separate from the body with the salivary glands. Paired salivary glands are large, clear sausage-shaped cylinders connected at one end by a common duct.
+7.  Try to keep the glands attached to each other to make it easier to transfer them.
+8.  Remove the mouth hooks and any other unwanted tissue with the forceps.
+9.  Place a drop (about 15 $\mu l$) of staining solution. Transfer the glands to the drop of staining solution. Allow to stain for 5 min.
+10. Pick up the coverslip with a clean microscope slide.
+11. Turn the slide.  Press the coverslip gently with a needle over the glands.  and hold the coverslip on one corner with a finger. Absorb excess staining solution with filter paper.
+12. Place the slide on a few sheets of paper towel with the coverslip side down. Press with the thumb over the coverslip.
+13. Hold the edge of the coverslip and tap it lightly over the glands with a pencil eraser.
+14. Examine the slide under a microscope.
+15. To avoid desiccation of the preparation it is sealed along the edges of the coverslip with clear nail polish.
+16. Take a photograph of them (#fig-chromosomes).
+
+![The polytene chromosomes and ends of the chromosome arms with characteristic landmarks.](img/chromosomes.jpg){#fig-chromosomes}
+
+\newpage
+
